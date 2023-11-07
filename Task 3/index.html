@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon"  type="image/png" sizes="32x32" href="temp.png">
     <title>Temperature Converter</title>
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -18,7 +19,7 @@
             const date = now.toLocaleDateString();
             const time = now.toLocaleTimeString();
 
-            const dateTimeElement = document.getElementById('currentDateTime');
+            const dateTimeElement = document.getElementById("currentDateTime");
             dateTimeElement.textContent = ` ${date} ${time}`;
         }
 
@@ -26,7 +27,6 @@
         setInterval(updateDateTime, 1000);
     </script>
 
-    
     <div class="container">
         <h1>Temperature Converter</h1>
         <div class="form-group">
