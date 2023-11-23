@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background: rgb(7, 44, 31);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav ul li a:hover {
+    color: aqua;
+    font-style: italic;
+}
+
+.left {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.left a {
+    text-decoration: none;
+    color: beige;
+}
+
+.left a:hover {
+    color: aqua;
+    font-size: 1.8rem;
+}
+
+.firstSection {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    margin: 30px 0;
+    align-items: center;
+}
+
+.firstSection>div {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.leftSection {
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.tagline {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#element {
+    color: purple;
+
+}
+
+.rightSection img {
+    max-width: 100%;
+    height: auto;
+    width: 75%;
+    margin: 0 auto;
+
+}
+#secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+#thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+#forthSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+#fifthSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr {
+    border: 0;
+    background: #000000;
+    height: 2px;
+    margin: 50px 50px;
+}
+
+#secondSection h1 {
+    font-size: 2rem;
+}
+
+.text-Exp {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+#thirdSection h1 {
+    font-size: 2rem;
+}
+
+.text-Ept {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+#forthSection h1 {
+    font-size: 2rem;
+}
+
+.text-Pgt {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+#fifthSection h1 {
+    font-size: 2rem;
+}
+
+.text-Cnt {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+#secondSection .work-box {
+    background: blue;
+    height: 2px;
+    width: 80vw;
+    margin: 100px 0;
+    display: flex;
+}
+
+#secondSection .verticalBox {
+    background: blue;
+    height: 90px;
+    width: 2px;
+    margin: 0 200px;
+}
+
+#secondSection .verticalBoxL {
+    background: blue;
+    height: 90px;
+    width: 2px;
+    margin: 0 200px;
+}
+
+.img1-top {
+    position: relative;
+    width: 50px;
+    top: -50px;
+    left: -30px;
+}
+
+.img2-top {
+    position: relative;
+    width: 50px;
+    top: -60px;
+    left: -24px;
+}
+
+.img3-top {
+    position: relative;
+    width: 100px;
+    top: -50px;
+    left: -56px;
+}
+
+.workTitle {
+    position: relative;
+    top: 40px;
+    width: 350px;
+    left: -170px;
+    text-align: center;
+}
+
+.workDesc {
+    position: relative;
+    top: 50px;
+    width: 250px;
+    left: -120px;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(111, 109, 109);
+}
+
+.workTitleL {
+    position: relative;
+    top: 58px;
+    width: 350px;
+    left: -174px;
+    text-align: center;
+}
+
+.workDescL {
+    position: relative;
+    top: 70px;
+    width: 250px;
+    left: -120px;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(111, 109, 109);
+}
+
+.details {
+    position: relative;
+    width: 250px;
+    left: 140px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.progress {
+    margin-top: 30px;
+    position: relative;
+    width: 1000px;
+    height: 25px;
+    border: 1px solid #0b0303;
+    margin-bottom: 20px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Progress bar */
+.progress-bar {
+
+    width: 0%;
+    height: 100%;
+    background-color: rgb(75, 0, 204);
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+.pricing-card {
+    width: 45%;
+    margin: 10px 0;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.pricing-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.pricing-card h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.pricing-card p {
+    text-align: center;
+}
+
+.pricing-card a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(2, 2, 0, 2);
+    padding: 20px;
+    margin: 370px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1rem;
+    color: #555555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+    height: 60px;
+}
+
+button {
+    background-color: #0c3f68;
+    align-items: center;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    background:#130d50;
+}
+
+/* Responsive Margin for Main HR */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav ul {
+        margin-top: 10px;
+    }
+    
+    .left {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .firstSection>div {
+        width: 100%;
+    }
+
+    .workTitle,
+    .workDesc,
+    .workTitleL,
+    .workDescL,
+    .details,
+    .progress,
+    .progress-bar {
+        width: 100%;
+        text-align: center;
+    }
+
+    .workTitle,
+    .workTitleL {
+        left: 0;
+        margin: 0 auto;
+    }
+
+    .workDesc,
+    .workDescL {
+        left: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .img1-top,
+    .img2-top,
+    .img3-top,
+    .workTitle,
+    .workDesc,
+    .workTitleL,
+    .workDescL,
+    .details,
+    .progress,
+    .progress-bar,
+    .pricing-card img,
+    .form-container {
+        width: 100%;
+    }
+
+    .form-container {
+        margin-inline: 10px;
+    }
+}
