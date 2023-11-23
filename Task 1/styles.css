@@ -1,0 +1,257 @@
+body {
+    font-family: Gabarito;
+}
+
+.main {
+    background-image: url(/images/futuristic-technology-background_23-2148460426.jpg);
+    background-position: center;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.head {
+    text-align: left;
+    font-size: 25px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.secBody {
+    text-align: center;
+}
+
+.Headline {
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+}
+
+.SubLine {
+    font-size: 20px;
+}
+
+.button1 {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: teal;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    padding-inline: 25px;
+}
+
+.menu a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    padding-top: 20px;
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.feature-item1-1 {
+    width: 50%;
+    text-align: center;
+    background-image: url(images/side-view-woman-meditating-nature_23-2148940305.jpg);
+    background-size: cover;
+    height: auto;
+    font-size: 30px;
+    padding: 5%;
+    margin: 10px;
+    border-radius : 5px;
+}
+
+.f1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.feature-item1-2 {
+    width: 50%;
+    text-align: center;
+    background-image: url(images/man-wooden-cubes-table-management-concept_155003-2366.jpg);
+    background-size: cover;
+    height: auto;
+    color: white;
+    font-size: 30px;
+    padding: 5%;
+    margin: 10px;
+    border-radius : 5px;
+}
+.f2 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.feature-item1-3 {
+    width: 50%;
+    text-align: center;
+    background-image: url(images/closeup-diverse-people-joining-their-hands_53876-96081.jpg);
+    background-size: cover;
+    height: auto;
+    color: white;
+    font-size: 30px;
+    padding: 5%;
+    margin: 10px;
+    border-radius : 5px;
+}
+.f3 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.features2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    padding: 20px 20px;
+    background: wheat;
+}
+
+.feature-item2 {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    background-color: ;
+}
+
+.features3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    padding: 20px 20px;
+    background: wheat;
+}
+
+.feature-item3 {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    background-color: ;
+}
+
+.feature-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.features2{
+    margin: 1%;
+    padding: auto;
+    border-radius: 70px;
+    background-color: lavender;
+    background-image: url(images/painting-mountain-lake-with-mountain-background_188544-9126.jpg);
+    background-size: cover;
+    width: auto;
+    height: auto;
+    /* background-position: center; */
+    
+}
+
+.features3{
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 24px;
+    padding: 30px 0px 30px 0px;
+    font-size: 25px;
+    
+}
+.feature-item3-1{
+    padding: 50px 50px 50px 50px;
+    background: #000;
+    border-radius: 16px;
+    color: wheat;
+}
+
+.feature-item3-2{
+    padding: 50px 50px 50px 50px;
+    background: #000;
+    border-radius: 16px;
+    color: wheat;
+}
+
+.tagline{
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    padding: 50px 50px 50px 50px;
+}
+.testimonial {
+    margin-bottom: 10rem;
+    text-align: center;
+    border: 2px;
+    border-radius: 50px;
+    width: auto;
+    margin: 20px;
+}
+
+.testimonial__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1110px;
+    margin: auto;
+    padding: 0 1rem;
+    grid-gap: 2rem;
+}
+
+.testimonial__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.testimonial__card_profile-pic {
+    width: 76px;
+    height: 76px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 3.75rem;
+}
+
+.testimonial__card_text {
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: var(--font-color-grey-darker);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.testimonial__card_name {
+    font-family: var(--font-title);
+    font-size: 1.125rem;
+    font-weight: 900;
+    color: var(--font-color-black);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.testimonial__card_job {
+    font-size: .875rem;
+    font-weight: 600;
+    color: gray;
+}
+
+
+
+.footer {
+    text-align: center;
+    padding-top: 50px;
+}
